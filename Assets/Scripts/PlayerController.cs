@@ -7,11 +7,12 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
 
     [SerializeField]
-    private float pushForce = 1000f;
+    private float pushForce = 2000f;
     private float movement;
 
     [SerializeField]
-    private float speed = 5f;
+    private float speed = 1.5f;
+
     public Vector3 respawnPoint;
     private GameManager gameManager;
 
